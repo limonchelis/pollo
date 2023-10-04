@@ -1,0 +1,42 @@
+.contenedor{
+    background-color: rgb(245, 122, 21);
+    padding: 25px;
+   
+}
+
+nav{
+    background: rgb(231, 133, 4);
+    position: absolute;
+    right:0;
+    top:0em;
+}
+
+nav ul li{
+    display:inline;
+    padding-top: 20px;
+}
+
+
+a{
+    color: beige;
+    text-decoration: none;
+}
+
+a:hover{
+    color: rgb(241, 179, 8);
+
+}
+
+
+nav ul li a,
+nav ul li a:visited{
+    color:rgb(252, 250, 246);
+    display:block;
+    float: left;
+    font-size:1.25em;
+    font-weight:bold;
+    margin:5px 2px;
+    padding:7px 10px 4px;
+    text-transform:uppercase;
+}
+
